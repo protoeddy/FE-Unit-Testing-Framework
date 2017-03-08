@@ -1,0 +1,15 @@
+{{#if productList}}
+<div id="productList">
+    {{#each productList}}
+    <div class="product-item">
+        <div class="img-border"><a href='#/productList/procut/{{sku}}' target="_self"><img src="../images/product_list/{{img}}.jpg" /></a></div>
+        <div class="name">{{name}}</div>
+        <div class="price">{{price}}</div>
+        <div class="sku">SKU: {{sku}}</div>
+        <div class="description">
+            <a href='#/productList/procut/{{sku}}' target="_self">{{description}}</a>
+        </div>
+    </div>
+    {{/each}}
+</div>
+{{/if}}

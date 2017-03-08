@@ -1,0 +1,46 @@
+#productList {
+  width: 100%;
+  height: auto;
+  padding-left: 40px;
+  padding-top: 50px;
+  clear: both;
+}
+#productList .product-item {
+  display: inline-table;
+  width: 30%;
+  padding: 20px 10px;
+  border: 1px solid #fff;
+  margin-bottom: 5px;
+}
+#productList .product-item:hover {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px #ddd;
+}
+#productList img {
+  width: 200px;
+}
+#productList .name {
+  color: #b57c5b;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+}
+#productList .sku {
+  font-size: 12px;
+  color: #888;
+}
+#productList .price {
+  color: #b12704;
+  font-size: 20px;
+  font-weight: bold;
+}
+#productList .description {
+  font-size: 13px;
+}
+#productList .description a {
+  color: #0066c0;
+  text-decoration: none;
+}
+#productList .description a:hover {
+  color: #c45500;
+}

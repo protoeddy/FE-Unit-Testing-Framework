@@ -1,0 +1,35 @@
+<div id="header">
+    <div id="logo" class="logo"><img src="../images/logo.png"></div>
+    <div id="user-center" class="user-center">log out</div>
+    <div id="user-modal" class="user-modal hidden">
+        <div class="welcome">Welcome Back</div>
+        <div class="user-modal-active">Profile</div>
+        <div class="user-modal-active">Change Password</div>
+        <div class="login-out"><a href="/#/">SIGN OUT</a></div>
+    </div>
+</div>
+<div id="container">
+    <div id="container-menu">
+        <div class="containert-menu-seach">
+            <input type="text" placeholder="Seach" />
+            <div>
+                <div class="containert-menu-result">Result:</div>
+                <ul class="containert-menu-box"></ul>
+            </div>
+        </div>
+        <div><a href="#/productList">productList</a></div>
+        <div class="container-menu-box">
+            {{#each this}}
+            <div class="container-menu-head">{{@key}}</div>
+            <ul class="submenu">
+            {{#if this}}
+                {{#each this}}
+                <li><a href="#/productList/{{id}}">{{Brand}} ({{productList.length}})</a></li>
+                {{/each}}
+            {{/if}} 
+            </ul>
+            {{/each}}
+        </div>  
+    </div>
+    <div id="container-product"></div>
+</div>

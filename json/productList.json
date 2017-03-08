@@ -1,0 +1,55 @@
+{
+    "Mobile":[{
+        "Brand": "Google Nexus",
+        "id": "1", 
+        "productList": [{
+                "name": "Google Nexus 5", 
+                "sku": "G0005",
+                "price": "$480",
+                "description": "LG Google Nexus 5 D820 16GB Unlocked GSM 4G LTE Quad-Core Smartphone, Black w/ 8MP Camera (Certified Refurbished)",
+                "img": "nexus_5"
+            }, {
+                "name": "Google Nexus 5X",
+                "sku": "G0005X",
+                "price": "$500",
+                "description": "LG Nexus 5X LG-H791 32GB Factory Unlocked EU Smartphone - Carbon Black (International Version)",
+                "img": "nexus_5x"
+            }, {
+                "name": "Google Nexus 6",
+                "sku": "G0006",
+                "price": "$500",
+                "description": "Motorola Nexus 6 Unlocked Cellphone, 32GB, Midnight Blue (U.S. Warranty) (Discontinued by Manufacturer)",
+                "img": "nexus_6"
+            }, {
+                "name": "Google Nexus 6P",
+                "sku": "G0006P",
+                "price": "$550",
+                "description": "Huawei Nexus 6P unlocked smartphone, 32GB Graphite (US Warranty)",
+                "img": "nexus_6p"
+            }
+        ]
+    }, {
+        "Brand": "Apple iPhone",
+        "id": "2", 
+        "productList": [{
+                "name": "Apple iPhone 5", 
+                "sku": "I0005",
+                "price": "$480",
+                "description": "Apple iPhone 5S 16GB Factory Unlocked Smartphone, Gold (Certified Refurbished)",
+                "img": "iphone_5"
+            }, {
+                "name": "Apple iPhone 6",
+                "sku": "I0006",
+                "price": "$600",
+                "description": "Apple iPhone 6 16GB Unlocked GSM 4G LTE Smartphone w/12MP Camera - Rose Gold (Certified Refurbished)",
+                "img": "iphone_6"
+            }, {
+                "name": "Apple iPhone 7",
+                "sku": "I0007",
+                "price": "$700",
+                "description": "Available in jet black,1 black, silver, gold, and rose gold, iPhone 7 features an all-new 12MP camera; splash, water, and dust resistance; an A10 Fusion chip; a new Retina HD display with wide color; stereo speakers; and iOS 10.",
+                "img": "iphone_7"
+            }
+        ]
+    }]
+}
