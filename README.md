@@ -1,4 +1,4 @@
-# Install plugins
+# Install Plugins
 
     1 npm install
     2 npm install grunt-cli -g
